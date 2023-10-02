@@ -1,27 +1,37 @@
-# React + TypeScript + Vite
+# Simple Shopping Cart App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that allows users to browse a list of products, add them to the cart, and view their cart contents.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse a list of products with details like name and price.
+- Add products to the cart.
+- View and manage cart contents.
+- Increment/decrement product quantity in the cart.
+- Remove products from the cart.
+- Display the total cost of items in the cart.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- TypeScript
+- HTML/CSS
 
-- Configure the top-level `parserOptions` property like this:
+## How to Run
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Run the application using `npm start`.
+5. Open your web browser and visit `http://localhost:3000` to view the app.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Usage
+
+- Browse the list of products.
+- Click the "Add to Cart" button to add a product to the cart.
+- Manage the cart: increment/decrement product quantities, remove products.
+- View the total cost of items in the cart.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
